@@ -1,0 +1,594 @@
+.cartela-section {
+  width: 100%;
+  padding: 4rem 1rem;
+  background: var(--background-color-light, #ffffff);
+  margin-top: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.cartela-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cartela-title {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.cartela-title .logo-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cartela-title::after {
+  display: none;
+}
+
+.cartela-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(248, 249, 250, 0.6);
+  padding: 50px 30px 30px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow-x: visible;
+  box-sizing: border-box;
+}
+
+/* Numeração do cupom posicionada fora do quadrado */
+.cupom-num {
+  position: absolute;
+  top: 20px;
+  right: 530px;
+  transform: translateY(0);
+  display: inline-block;
+  padding: 0.4em 1em 0.4em;
+  background-color: #fff;
+  z-index: 10;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.cupom-num .cupom-label {
+  display: inline;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 0.3em;
+  color: #000000;
+}
+
+.cupom-num .cupom-value {
+  display: inline;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.cartelas-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  padding-left: 10px;
+  border: 4px solid #000000;
+  border-radius: 12px;
+  padding: 20px 20px 20px 50px;
+  background-color: #fff;
+  box-sizing: border-box;
+  min-height: 510px;
+}
+
+.cartelas-inner::before {
+  content: '🍀';
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 600px;
+  opacity: 0.2;
+  z-index: 10;
+  pointer-events: none;
+  color: #28a745;
+  filter: brightness(1.5);
+}
+
+.cartela {
+  background-color: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 250px;
+  flex: 1;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 470px;
+}
+
+.cartela .sets {
+  padding: 8px 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo do cabeçalho do prêmio */
+.cartela .header-set {
+  border: none;
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+
+.cartela .header-set:first-child {
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cartela .premio-header {
+  padding: 12px 8px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.cartela .premio-header-text {
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cartela .label {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.cartela .set {
+  position: relative;
+  border: 2px solid #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  flex: 1;
+  min-height: 40px;
+}
+
+.cartela .set:not(:last-child) {
+  border-bottom: none;
+}
+
+/* Borda superior do primeiro conjunto de números após o header */
+.cartela .set:not(.header-set):first-of-type {
+  border-top: 2px solid #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cartela .conjunto-separator {
+  margin: 0;
+  border-bottom: 2px solid #000;
+  background-color: #f8f9fa;
+  flex-shrink: 0;
+}
+
+.cartela .conjunto-text {
+  color: #0d5a2e;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: block;
+  padding: 4px 8px;
+  text-align: center;
+  margin: 0;
+}
+
+.cartela .numbers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex: 1;
+  min-height: 30px;
+}
+
+.cartela .set-index {
+  display: none;
+}
+
+.cartela .number-item {
+  flex: 1;
+  padding: 6px 4px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-right: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+}
+
+.cartela .number-item:last-of-type {
+  border-right: none;
+}
+
+/* Texto final abaixo das cartelas */
+.cupom-text {
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ED3237;
+  text-transform: uppercase;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+  .cartela-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 30px 15px 20px 15px;
+  }
+  
+  .cartela-title, 
+  .cupom-text {
+    padding-left: 15px;
+  }
+  
+  .cartela-title::after {
+    left: 15px;
+  }
+
+  .cartelas-inner {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+    min-height: 420px;
+  }
+
+  .cartela {
+    width: 200px;
+    flex: none;
+    min-height: 370px;
+  }
+
+  .cupom-num {
+    right: 20px;
+    top: 15px;
+    transform: translateY(0);
+    font-size: 0.95rem;
+    color: #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .cartela-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cartela-section {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .cupom-text {
+    display: none;
+  }
+
+  .cartela .vertical-text {
+    display: none;
+  }
+
+  .cartela-container {
+    padding: 15px 8px 10px 8px;
+    margin-top: 70px;
+    position: relative;
+    overflow: visible;
+  }
+
+  .cartelas-inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    overflow-x: visible;
+    min-height: 325px;
+  }
+
+  .cartela {
+    width: calc(50% - 1px);
+    margin-bottom: 0;
+    flex-shrink: 0;
+    border-radius: 0;
+    min-height: 275px;
+  }
+
+  .cartela:nth-child(1) {
+    border-top-left-radius: 10px;
+  }
+
+  .cartela:nth-child(2) {
+    border-top-right-radius: 10px;
+  }
+
+  .cartela:nth-child(5) {
+    border-bottom-left-radius: 10px;
+  }
+
+  .cartela:nth-child(6) {
+    border-bottom-right-radius: 10px;
+  }
+
+  .cartela:nth-child(odd) {
+    border-right: none;
+  }
+
+  .cartela:nth-child(even) {
+    border-left: none;
+  }
+
+  .cartela:nth-child(n+3) {
+    border-top: none;
+  }
+
+  .cartela .label {
+    font-size: 0.6rem;
+    margin: 3px 0;
+  }
+
+  .cartela .premio-header {
+    padding: 8px 4px;
+    background-color: #ffffff;
+  }
+
+  .cartela .premio-header-text {
+    font-size: 0.65rem;
+    color: #000000;
+  }
+
+  .cartela .numbers span {
+    padding: 2px 0;
+    font-size: 0.7rem;
+  }
+
+  .cartela .conjunto-text {
+    font-size: 0.65rem;
+    padding: 2px 4px;
+  }
+
+  .cupom-num {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    transform: translateY(0);
+    margin-bottom: 0;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 0.4em 0.8em 0.4em;
+    font-size: 0.9rem;
+    color: #000000;
+  }
+
+  .cartelas-inner::before {
+    font-size: 180px;
+    opacity: 0.08;
+  }
+}
+
+@media (max-width: 480px) {
+  .cartela-section {
+    padding: 1rem 0.5rem;
+  }
+
+  .cartela-container {
+    padding: 10px 5px 5px 5px;
+    margin-top: 60px;
+    overflow: visible;
+  }
+
+  .cartelas-inner {
+    gap: 0;
+    padding: 8px;
+    border-radius: 8px;
+    min-height: 250px; /* Altura mínima para telas muito pequenas */
+  }
+
+  .cartela {
+    width: calc(50% - 1px);
+    min-height: 220px; /* Altura mínima específica para 480px */
+  }
+
+  .cartela .label {
+    font-size: 0.55rem;
+    margin: 2px 0;
+  }
+
+  .cartela .premio-header {
+    padding: 6px 3px;
+    background-color: #ffffff;
+  }
+
+  .cartela .premio-header-text {
+    font-size: 0.6rem;
+    color: #000000;
+  }
+
+  .cartela .numbers span {
+    padding: 1px 0;
+    font-size: 0.65rem;
+  }
+
+  .cartela .conjunto-text {
+    font-size: 0.6rem;
+    padding: 1px 3px;
+  }
+
+  .cartela .vertical-text {
+    font-size: 0.55rem;
+    padding: 3px;
+  }
+
+  .cupom-num {
+    padding: 0.25em 0.5em 0.25em;
+    right: 4px;
+    top: 8px;
+    transform: translateY(0);
+    z-index: 9999;
+    background-color: #fff;
+    font-size: 0.8rem;
+    color: #000000;
+  }
+
+  .cupom-num .cupom-label {
+    font-size: 0.8rem;
+    color: #000000;
+  }
+
+  .cupom-num .cupom-value {
+    font-size: 0.8rem;
+    color: #000000;
+  }
+
+  .cartelas-inner::before {
+    font-size: 140px;
+    opacity: 0.06;
+  }
+}
+
+@media (max-width: 360px) {
+  .cartela-section {
+    padding: 0.75rem 0.25rem;
+  }
+
+  .cartela-container {
+    padding: 8px 3px 3px 3px;
+    margin-top: 50px;
+    overflow: visible;
+  }
+
+  .cartelas-inner {
+    gap: 0;
+    padding: 6px;
+    border-radius: 6px;
+    min-height: 230px; /* Altura mínima para telas extra pequenas */
+  }
+
+  .cartela {
+    width: calc(50% - 1px);
+    min-height: 200px; /* Altura mínima específica para 360px */
+  }
+
+  .cartela .label {
+    font-size: 0.5rem;
+    margin: 2px 0;
+  }
+
+  .cartela .premio-header {
+    padding: 5px 2px;
+    background-color: #ffffff;
+  }
+
+  .cartela .premio-header-text {
+    font-size: 0.55rem;
+    color: #000000;
+  }
+
+  .cartela .numbers span {
+    padding: 1px 0;
+    font-size: 0.6rem;
+  }
+
+  .cartela .conjunto-text {
+    font-size: 0.55rem;
+    padding: 1px 2px;
+  }
+
+  .cartela .vertical-text {
+    font-size: 0.5rem;
+    padding: 2px;
+  }
+
+  .cupom-num {
+    padding: 0.2em 0.4em 0.2em;
+    right: 2px;
+    top: 6px;
+    transform: translateY(0);
+    z-index: 9999;
+    background-color: #fff;
+    font-size: 0.75rem;
+    color: #000000;
+  }
+
+  .cupom-num .cupom-label {
+    font-size: 0.75rem;
+    color: #000000;
+  }
+
+  .cupom-num .cupom-value {
+    font-size: 0.75rem;
+    color: #000000;
+  }
+
+  .cartelas-inner::before {
+    font-size: 100px;
+    opacity: 0.05;
+  }
+}
+
+.vertical-text {
+  position: absolute;
+  left: -12px;
+  top: 80%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: right center;
+  white-space: nowrap;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+  width: 2px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  opacity: 1;
+  z-index: 5;
+}
+
+ 

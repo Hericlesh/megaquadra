@@ -1,0 +1,357 @@
+/* Styles for the Sorteio page */
+.sorteio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(72, 175, 12, 0.1);
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sorteio-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.search-number-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.search-number-grid input[type="text"] {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  border: 2px solid #4CAF50;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.search-number-grid input[type="text"]:focus {
+  outline: none;
+  border-color: #45a049;
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.7);
+}
+
+.prizeSelection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.prize-button {
+  background-color: #ffffff;
+  color: rgb(7, 7, 7);
+  border: 2px solid #000;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background-color 0.3s, border 0.3s;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.prize-button:hover {
+  background-color: #14dd46;
+}
+
+.prize-button.selected {
+  background-color: #14dd46;
+  color: rgb(0, 0, 0);
+  border: 2px solid #000;
+}
+
+.sorteio-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.sorteio-container button:hover {
+  background-color: #45a049;
+}
+
+#resultado {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.prize-table, .coupon-table, .number-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.prize-table th, .prize-table td, 
+.coupon-table th, .coupon-table td,
+.number-table th, .number-table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.prize-table th, .coupon-table th, .number-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.prize-table tr:nth-child(even), 
+.coupon-table tr:nth-child(even),
+.number-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.prize-table tbody tr:hover, 
+.coupon-table tbody tr:hover,
+.number-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 4px;
+  text-align: center;
+}
+
+.selected-column {
+  background-color: lightblue;
+}
+
+.number-table {
+  width: 100%;
+  font-size: 14px;
+  margin: 40px auto;
+}
+
+.number-table td {
+  font-family: monospace;
+  white-space: nowrap;
+  padding: 8px;
+}
+
+.number-table .hidden-number {
+  position: relative;
+}
+
+.number-table .hidden-number::after {
+  content: attr(data-hidden);
+  color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.number-table .hidden-number:hover::after {
+  color: #000;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.coupon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.coupon-container h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.coupon-container pre {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  overflow: visible;
+  white-space: normal;
+  font-size: 14px;
+  color: #000000;
+  width: 100%;
+}
+
+.coupon-container .column {
+  margin: 10px;
+}
+
+.coupon-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.coupon-container th, .coupon-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+
+.coupon-container th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.coupon-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.coupon-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sorteio-container {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .sorteio-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .search-number-grid input[type="text"] {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  .prize-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .sorteio-container button {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+
+  .prize-table th, .prize-table td {
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .coupon-container table {
+    font-size: 12px;
+  }
+
+  .coupon-container th, .coupon-container td {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .coupon-container th {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sorteio-container {
+    margin: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .search-number-grid {
+    gap: 5px;
+  }
+
+  .search-number-grid input[type="text"] {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .prizeSelection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prize-button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .sorteio-container button {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+
+  .prize-table th, .prize-table td {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .coupon-container table {
+    font-size: 10px;
+  }
+
+  .coupon-container th, .coupon-container td {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .coupon-container th {
+    font-size: 12px;
+  }
+} 

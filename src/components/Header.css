@@ -1,0 +1,61 @@
+.header {
+  background-color: var(--header-bg);
+  box-shadow: 0 2px 4px var(--header-shadow);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover,
+.nav-list li a:focus {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+/* Add styles for an active link if needed (requires NavLink from react-router-dom) */
+/*
+.nav-list li a.active {
+  color: var(--link-color); 
+  font-weight: bold; 
+  border-bottom: 2px solid var(--link-color);
+}
+*/
+
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .nav-list li a {
+    padding: 0.5rem;
+  }
+} 

@@ -1,0 +1,93 @@
+/* Define some variables for consistency (optional) */
+:root {
+  --footer-bg-dark: #212529; /* Dark background */
+  --text-color-dark: rgba(255, 255, 255, 0.8); /* Off-white text */
+  --link-color-dark: #adb5bd; /* Greyish link/icon color */
+  --link-hover-dark: #ffffff; /* White hover */
+}
+
+.footer {
+  background-color: var(--footer-bg-dark, #212529); /* Use dark bg variable or fallback */
+  color: var(--text-color-dark, rgba(255, 255, 255, 0.8));
+  padding: 2.5rem 1rem; /* Increased padding */
+  margin-top: auto; /* Pushes footer to bottom */
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0; /* Prevent footer from shrinking */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-content {
+  max-width: 1200px; /* Consistent max-width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack elements */
+  align-items: center; /* Center horizontally */
+  gap: 1.5rem; /* Space between icon block and copyright */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Increased space between icons */
+  /* margin-bottom: 1rem; - Handled by parent gap */
+}
+
+.social-icon {
+  color: var(--link-color-dark, #adb5bd); /* Use link color variable */
+  font-size: 1.8rem; /* Larger icons */
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block; /* Needed for transform */
+}
+
+.social-icon:hover {
+  color: var(--link-hover-dark, #ffffff); /* Use link hover variable */
+  transform: scale(1.15) translateY(-2px); /* Scale and lift effect */
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--text-color-dark, rgba(255, 255, 255, 0.7)); /* Use text color variable, slightly dimmer */
+  text-align: center;
+}
+
+/* Remove duplicated/conflicting footer styles from MainContent.css */
+/* Ensure these are not overriding in MainContent.css: */
+/* .footer-title { ... } */
+
+/* Adjust responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+  .social-icons {
+    gap: 1.5rem;
+  }
+  .social-icon {
+    font-size: 1.6rem;
+  }
+  .copyright p {
+    font-size: 0.85em;
+  }
+}
+
+/* Styles for optional footer nav */
+/*
+.footer-nav {
+  margin-top: 0.5rem;
+}
+
+.footer-nav a {
+  color: var(--link-color-dark);
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-nav a:hover {
+  color: var(--link-hover-dark);
+  text-decoration: underline;
+}
+*/ 
