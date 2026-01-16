@@ -6,62 +6,134 @@ const Regulamento = () => {
     <div className="regulamento-container">
       <h1>Regulamento</h1>
 
-      <h2>6- COMO CONCORRER AOS PREMIOS:</h2>
+      <h2>3.2.3 - COMO CONCORRER AOS PRÊMIOS:</h2>
       <p>
-        Adquiridos virtualmente, todos os comprovantes contem 06(SEIS) quadros, denominados
-        1º Premio, 2º Premio, 3º Premio, 4º Premio, 5º Prêmio e Extra, e   em cada um deles aleatoriamente e sem repetir as dezanas,10(dez) conjuntos 04(quatro) dezenas diferentes, impressas aleatoriamente, as quais concorrerão por SORTEIO RANDOMICO e  ou através de um GLOBO contendo 80(oitenta bolinhas) 08(oito) para cada nºs  de 0-1-2-3-4-5-6-7-8 e 9.
-      </p>
-      <p style={{ color: 'red', fontWeight: 'bold' }}>
-        INFORMAÇÃO IMPORTANTE: "OS PRÊMIOS CORRESPONDENTES AOS CUPONS NÃO VENDIDOS, FICARÃO ACUMULADOS PARA O PROXIMO SORTEIO" E ASSIM SUCESSIVAMENTE. Igual aos sorteios da CAIXA ECONOMICA FEDERAL exceto a LOTERIA FEDERAL quando não há acertadores os mesmos acumulam para o PROXIMO SORTEIO.
+        Adquiridos virtualmente, todos os comprovantes 0.000.000” e “9.999.999. Concorrem:
       </p>
 
-      <h3>a)- 1º Premio:</h3>
+      <h3>3.2.3.1 -</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de 01(um(a) CASA no valor de R$200.000,00(duzentos mil reais),em localidade de seu interesse, ou  por 01(um) Pix no valor correspondente. Mais 05(cinco) Motos Honda, uma para o "2º Premio, 3º Premio, 4º Premio, 5º Premio e Extra", ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada,  para  os números dos cupons participantes..  .
+        O primeiro participante contemplado nesta modalidade no sorteio de sábado dia 03/01/2026 será
+        aquele que coincidir seu Número da Sorte com o Número formado pelos três últimos algarismos do
+        primeiro prêmio da Loteria Federal, seguidos dos últimos algarismos do segundo, terceiro, quarto e
+        quinto prêmio da Loteria Federal, conforme exemplo a seguir Extração da Loteria Federal:
+      </p>
+      <pre style={{ whiteSpace: 'pre-wrap' }}>
+{`Extração da Loteria Federal 
+1º Prêmio = 85.145 
+2º Prêmio = 63.419
+3º Prêmio = 35.108 
+4º Prêmio = 31.143
+5º Prêmio = 05.131
+Número Sorteado: 4.519.831 GANHADOR DO PIX DE R$ 200.000.00(duzentos mil reais)`}
+      </pre>
+
+      <h3>3.2.3.2 -</h3>
+      <p>
+        Os demais participantes nesta outra modalidade no sorteio de domingo dia 04/01/2026, cujo
+        comprovante contem também 06(SEIS) quadros, denominados 1º Premio, 2º Premio, 3º Premio,
+        4º Premio, 5º Prêmio e 6º Prêmio, e em cada um deles aleatoriamente e sem repetir as dezenas,
+        10(dez) conjuntos com 04(quatro) dezenas diferentes, de 00000001 a 00000000, impressas
+        aleatoriamente, os quais concorrerão pelas unidades de números extraídas de um Aparelho próprio,
+        GLOBO contendo 80(oitenta bolinhas) 08(oito) de cada nº 0-1-2-3-4-5-6-7-8 e 9. E por
+        SORTEIO RANDOMICO; 60 PIX no valor de R$3.500,00 cada e mais 40 PIX no valor de R$2.500,00
+        cada, sorteados entre os títulos de “0.000.000” e “9.999.999". Adquiridos durante o sorteio de
+        domingo.
       </p>
 
-      <h3>b)- 2º Premio:</h3>
+      <h2>4. SEQUENCIA E NA FORMA DE SORTEIOS DOS PRÊMIOS DO 1º AO 6º PRÊMIO;</h2>
+
+      <h3>4.1 - 1º Premio:</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de 01(um(a) CASA no valor 
-        de R$200.000,00(duzentos mil reais),em localidade de seu interesse, ou  por 01(um) Pix no valor correspondente. Mais 02(dois) Carros, ou pix no valor correspondente aos mesmos, e mais 05(cinco) Motos Honda, uma para o "3º Premio, 4º Premio, 5º Premio, Extra e 1º Prêmio", ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada, para  os números dos cupons participantes..  .
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um) PRÊMIO PIX.  no valor de R$50.000,00(cinquenta mil reais), Mais 05(cinco) PIX
+        de R$ 5.000,00 cada, um para o “2º Premio, 3º Premio, 4º Prêmio, 5º Prêmio e 6º Prêmio;
       </p>
 
-      <h3>c)- 3º Premio:</h3>
+      <h3>4.2 - 2º Premio:</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de de (um(a) ) CASA no valor de R$200.000,00(duzentos mil reais),em localidade de sua livre escolha, ou 01(un) Pix no valor correspondente. Mais 02(dois) Carros, ou pix no valor correspondente aos mesmos, e mais 05(cinco) Motos Honda, uma para o "4º Prêmio,5º Prêmio, Extra,1º Prêmio e 2º Prêmio" ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada, para  os números dos cupons participantes..  .
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um) PRÊMIO PIX no valor de R$50.000,00(cinquenta mil reais). Mais 05(cinco) PIX
+        de R$ 5.000,00 cada, um para o “3º Premio, 4º Premio, 5º Premio, 6º Prêmio e 1º Prêmio”, e mais
+        10(dez) PIX de R$ 1.500,00 cada, sorteios aleatórios Randômico, para  os números dos cupons
+        participantes.
       </p>
 
-      <h3>d)- 4º Premio:</h3>
+      <h3>4.3 - 3º Premio:</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de 01(um(a) CASA no valor de R$200.000,00(duzentos mil reais),em localidade de seu interesse, ou  por 01(um) Pix no valor correspondente. Mais 02(dois) Carros, ou pix no valor correspondente aos mesmos, e mais 05(cinco) Motos Honda, uma para o "5º Prêmio, Extra,1º Prêmio, 2º Prêmio e 3º Prêmio",  ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada, para  os números dos cupons participantes..
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um) PRÊMIO  PIX. no valor de R$50.000,00(cinquenta mil reais). Mais .05(cinco) PIX
+        de R$ 5.000,00 cada, um para o “4º Prêmio,5º Prêmio, 6º Prêmio,1º Prêmio e 2º Prêmio”. e mais
+        10(dez) PIX de R$ 1.500,00 cada, sorteios aleatórios Randômico, para  os números dos cupons
+        participantes.
+      </p>
+ 
+      <h3>4.4 - 4º Premio:</h3>
+      <p>
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas  unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um)PRÊMIO  PIX, no valor de R$50.000,00(cinquenta mil reais). Mais 05(cinco) PIX
+        de R$ 5.000,00 cada, um para o“5º Prêmio, 6º Prêmio,1º Prêmio, 2º Prêmio e 3º Prêmio”. e mais
+        10(dez) PIX de R$ 1.500,00 cada, sorteios aleatórios Randômico, para  os números dos cupons
+        participantes.
       </p>
 
-      <h3>e)- 5º Premio:</h3>
+      <h3>4.5 - 5º Premio:</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de 01(um(a) CASA no valor de R$200.000,00(duzentos mil reais),em localidade de seu interesse, ou  por 01(um) Pix no valor correspondente. Mais 02(dois) Carros, ou pix no valor correspondente aos mesmos, e mais 05(cinco) Motos Honda, uma para o ºPrêmio, Extra,1º Prêmio, 2º Prêmio, 3º Prêmio e 4º Prêmio",  ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada, para  os números dos cupons participantes..  
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas  unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um) PRÊMIO PIX no valor de R$50.000,00(cinquenta mil reais). Mais 05(cinco) PIX
+        de R$ 5.000,00 cada, um para o º6º Prêmio,1º Prêmio, 2º Prêmio, 3º Prêmio e 4º Prêmio”, e mais
+        10(dez) PIX de R$ 1.500,00 cada, sorteios aleatórios Randômico, para  os números dos cupons
+        participantes.
       </p>
 
-      <h3>e)- Premio Extra:</h3>
+      <h3>4.6 - 6º Premio:</h3>
       <p>
-        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as dezenas sorteadas pelos SISTENAS RANDOMICO e  ou pelo GLOBO, será o único ganhador de ATÉ R$ 1.000.000,0(HUM MILHÃO DE REAIS) Mais 01(um(a) CASA no valor de R$200.000,00(duzentos mil reais),em localidade de seu interesse, ou por 01(um) Pix no valor correspondente. Mais 05(cinco) Motos Honda, uma para o º1º Prêmio, 2º Prêmio, 3º Prêmio, 4º Prêmio e 5º Prêmio",  ou um pix no valor correspondente para cada 01(um) dos 05(cinco) ganhadores, Mais 10(dez) sorteios aleatórios no valor de R$1.500,00 (hum mil e quinhentos reais) cada, para  os números dos cupons participantes..  
-      </p>
-      <p style={{ color: 'red', fontWeight: 'bold' }}>
-        ATENÇAO; PARA DETERMINAR O VALOR, A SER SORTEADO NESTE PREMIO EXTRA, SERA UTULIZADO UMA ROLETA - COM VALORES DE R$100.000,00 -  R$200.000,00 - R$300.000,00 - R$400.000,00 - R$500.000,00 - R$600.000,00 - R$700.000,00 - R$800.000,00 - R$900.000,00 E R$1.000.000,00 (UM MILHÃO DE REAIS),  AO GIRAR A ROLETA NO VALOR QUE PARAR, SERÁ O CORRESPONDENTE A ESSE SORTEIO0 EXTRA.
+        O portador do cupom cujo conjunto de 04(quatro) dezenas, coincidirem em ordem sequencial com as
+        dezenas sorteadas e formadas pelas  unidades de números que contem no GLOBO, será o único
+        ganhador de 01(um) PRÊMIO  PIX, no valor de  R$ 500.000,00(quinhentos mil reais). Mais 05(cinco) PIX
+        de R$ 5.000,00 cada, um para o º1º Prêmio, 2º Prêmio, 3º Prêmio, 4º Prêmio e 5º Prêmio”, e mais
+        10(dez) PIX de R$ 1.500,00 cada, sorteios aleatórios Randômico, para  os números dos cupons
+        participantes.
       </p>
 
-      <h2>g) SORTEIO PELA LOTERIA FEDERAL</h2>
+      <h3>4.7 -</h3>
       <p>
-        a) quando houver SORTEIO SEMANAL, pela composição do resultado da Loteria Federal em data determinada
+        Na hipótese o Título contemplado no sorteio não ter sido distribuído, o contemplado será aquele que
+        possuir o Número da Sorte imediatamente posterior ao Número sorteado na Loteria Federal, ou Sorteios
+        por meios próprios, até que se apure o título sorteado. 
       </p>
+
+      <h3>4.7.1 -</h3>
       <p>
-        b) EXEMPLO DE COMO CONFERIR OS CUPONS PELA ORDEM DO SORTEIO:
+        Para fins de apuração, o Número da Sorte imediatamente posterior ao número 9.999.999 será
+        10.000.000 
       </p>
+
+      <h2>5.</h2>
+      <p>
+        A probabilidade mínima de contemplação de cada Título, considerando todos os Títulos da série, será
+        igual a uma chance em 10.000.000 para cada um dos sorteios previstos no regulamento da promoção
+        comercial.
+      </p>
+
+      <h2>6. SORTEIO PELA LOTERIA FEDERAL</h2>
+
+      <p>
+        6.1 – Que não mais coincidam com as regras deste sorteio, ou haja qualquer impedimento à vinculação
+        da Loteria Federal. Por motivo de força quando houver SORTEIO SEMANAL, pela composição do
+        resultado da Loteria Federal em data determinada
+      </p>
+
+      <h3>b) EXEMPLO DE COMO CONFERIR OS CUPONS PELA ORDEM DO SORTEIO:</h3>
       <p className="lottery-result-intro">
-        PELO RESULTADO DA LOTERIA FEDERAL ESSAS  SÃO AS SEQUÊNCIAS DAS DEZENAS VALIDAS  PARA CADA PRÊMIO:
+        PELO RESULTADO DA LOTERIA FEDERAL ESSAS SÃO AS SEQUÊNCIAS DAS DEZENAS VALIDAS PARA CADA PRÊMIO:
       </p>
-      <p className="lottery-result-intro">
-        EXEMPLO:
-      </p>
+      <p className="lottery-result-intro">EXEMPLO:</p>
 
       <table className="lotto-table">
         <thead>
@@ -124,23 +196,23 @@ const Regulamento = () => {
             <td>5ª PRÊMIO 3 0 4 0 <span className="highlight-number">06</span></td>
           </tr>
           <tr>
-            <td>5ª PRÊMIO 3 0 4 0 <span >06</span></td>
-            <td>1ª PRÊMIO 4 7 1 4 <span >43</span></td>
-            <td>2ª PRÊMIO 3 6 1 6 <span >67</span></td>
-            <td>3ª PRÊMIO 0 2 3 3 <span >35</span></td>
-            <td>4ª PRÊMIO 5 0 8 7 <span >78</span></td>
-            <td>2ª PRÊMIO 3 6 1 6 <span >67</span></td>
+            <td>5ª PRÊMIO 3 0 4 0 <span>06</span></td>
+            <td>1ª PRÊMIO 4 7 1 4 <span>43</span></td>
+            <td>2ª PRÊMIO 3 6 1 6 <span>67</span></td>
+            <td>3ª PRÊMIO 0 2 3 3 <span>35</span></td>
+            <td>4ª PRÊMIO 5 0 8 7 <span>78</span></td>
+            <td>2ª PRÊMIO 3 6 1 6 <span>67</span></td>
           </tr>
         </tbody>
       </table>
 
       <div className="result-section">
         <h3 className="result-title">EXEMPLO DE RESULTADO DA PROMOÇÃO PARA OS CUPONS GANHADORES</h3>
-        
+
         <div className="prize-result">
           <h4>1º PREMIO</h4>
           <p className="winner-description">
-          O único ganhador do primeiro prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 1°, 2°, 3° e 4° Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+            O único ganhador do primeiro prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 1°, 2°, 3° e 4° Prêmios da extração da Loteria Federal, na data prevista do sorteio;
           </p>
           <div className="dezena-table">
             <div className="dezena-row">
@@ -167,7 +239,7 @@ const Regulamento = () => {
         <div className="prize-result">
           <h4>2º PRÊMIO</h4>
           <p className="winner-description">
-          O único ganhador do segundo prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 2º,3º.4º e 5º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+            O único ganhador do segundo prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 2º,3º.4º e 5º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
           </p>
           <div className="dezena-table">
             <div className="dezena-row">
@@ -194,7 +266,7 @@ const Regulamento = () => {
         <div className="prize-result">
           <h4>3º PRÊMIO</h4>
           <p className="winner-description">
-          O único ganhador do terceiro prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do  3º,4º, 5º e 1° Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+            O único ganhador do terceiro prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 3º,4º, 5º e 1° Prêmios da extração da Loteria Federal, na data prevista do sorteio;
           </p>
           <div className="dezena-table">
             <div className="dezena-row">
@@ -221,7 +293,7 @@ const Regulamento = () => {
         <div className="prize-result">
           <h4>4º PRÊMIO</h4>
           <p className="winner-description">
-          O único ganhador do quarto prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do  4º, 5º, 1º e 2º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+            O único ganhador do quarto prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 4º, 5º, 1º e 2º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
           </p>
           <div className="dezena-table">
             <div className="dezena-row">
@@ -248,7 +320,7 @@ const Regulamento = () => {
         <div className="prize-result">
           <h4>5º PRÊMIO</h4>
           <p className="winner-description">
-          O único ganhador do quinto prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do  5º, 1º, 2º e 3º  Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+            O único ganhador do quinto prêmio será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 5º, 1º, 2º e 3º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
           </p>
           <div className="dezena-table">
             <div className="dezena-row">
@@ -275,7 +347,8 @@ const Regulamento = () => {
         <div className="prize-result">
           <h4>EXTRA</h4>
           <p className="winner-description">
-          O único ganhador do prêmio extra será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do  1º, 3º, 4º e 5º  Prêmios da extração da Loteria Federal, na data prevista do sorteio;         </p>
+            O único ganhador do prêmio extra será o número do cupom em que as dezenas finais e nesta sequência coincidirem com as do 1º, 3º, 4º e 5º Prêmios da extração da Loteria Federal, na data prevista do sorteio;
+          </p>
           <div className="dezena-table">
             <div className="dezena-row">
               <div className="dezena-column">
