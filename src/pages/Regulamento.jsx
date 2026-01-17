@@ -19,13 +19,23 @@ const Regulamento = () => {
         quinto prêmio da Loteria Federal, conforme exemplo a seguir Extração da Loteria Federal:
       </p>
       <pre style={{ whiteSpace: 'pre-wrap' }}>
-{`Extração da Loteria Federal 
-1º Prêmio = 85.145 
-2º Prêmio = 63.419
-3º Prêmio = 35.108 
-4º Prêmio = 31.143
-5º Prêmio = 05.131
-Número Sorteado: 4.519.831 GANHADOR DO PIX DE R$ 200.000.00(duzentos mil reais)`}
+        {'Extração da Loteria Federal \n'}
+        {'1º Prêmio = 85.1'}
+        <span style={{ color: 'red', fontWeight: 'bold' }}>45</span>
+        {' \n'}
+        {'2º Prêmio = 63.4'}
+        <span style={{ color: 'red', fontWeight: 'bold' }}>19</span>
+        {' \n'}
+        {'3º Prêmio = 35.10'}
+        <span style={{ color: 'red', fontWeight: 'bold' }}>8</span>
+        {' \n'}
+        {'4º Prêmio = 31.14'}
+        <span style={{ color: 'red', fontWeight: 'bold' }}>3</span>
+        {' \n'}
+        {'5º Prêmio = 05.13'}
+        <span style={{ color: 'red', fontWeight: 'bold' }}>1</span>
+        {' \n'}
+        {'Número Sorteado: 4.519.831 GANHADOR DO PIX DE R$ 200.000.00(duzentos mil reais)'}
       </pre>
 
       <h3>3.2.3.2 -</h3>

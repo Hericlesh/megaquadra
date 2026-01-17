@@ -208,7 +208,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
-  white-space: normal; /* Mudado de 'nowrap' para 'normal' para permitir quebra de linha */
+  white-space: nowrap; /* Mantem o texto em uma linha */
   font-size: 1rem;
   font-weight: bold;
   display: flex;
@@ -251,8 +251,7 @@
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: bold;
-  word-wrap: break-word; /* Adiciona quebra de palavra */
-  overflow-wrap: break-word; /* Suporte adicional para quebra de palavra */
+  white-space: nowrap; /* Mantem o texto em uma linha */
 }
 
 .dezena-value {
