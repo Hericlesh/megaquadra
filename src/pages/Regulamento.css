@@ -153,6 +153,11 @@
   .lotto-table tr {
     min-height: 2rem;
   }
+
+  .winner-description {
+    font-size: 0.38rem;
+    line-height: 1.1;
+  }
 }
 
 .regulamento-container pre {
@@ -208,7 +213,9 @@
   margin-right: auto;
   padding: 0;
   white-space: nowrap; /* Mantem o texto em uma linha */
-  font-size: 1rem;
+  font-size: clamp(0.32rem, 0.8vw + 0.15rem, 1rem);
+  max-width: 100%;
+  overflow: hidden;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -361,8 +368,8 @@
   }
   
   .winner-description {
-    font-size: 0.85rem;
-    line-height: 1.4;
+    font-size: 0.42rem;
+    line-height: 1.15;
   }
   
   .result-section {
