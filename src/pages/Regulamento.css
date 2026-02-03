@@ -211,7 +211,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding: 0 0.6rem;
   white-space: normal; /* Permite quebra em duas linhas */
   font-size: clamp(0.75rem, 0.9vw + 0.4rem, 1rem);
   max-width: 100%;
