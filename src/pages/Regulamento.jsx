@@ -121,7 +121,7 @@ const Regulamento = () => {
       <h3>4.7.1 -</h3>
       <p>
         Para fins de apuração, o Número da Sorte imediatamente posterior ao número 9.999.999 será
-        10.000.000 
+        00.000.001 
       </p>
 
       <h2>5.</h2>
