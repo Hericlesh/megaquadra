@@ -30,6 +30,17 @@
   padding-bottom: 0.4rem;
 }
 
+.section-title-compact {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: clamp(0.4rem, 1.6vw, 0.85rem) !important;
+  letter-spacing: -0.35px;
+  line-height: 1;
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
 .regulamento-container h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.6rem;
@@ -97,6 +108,10 @@
     margin-top: 1.5rem;
   }
 
+  .section-title-compact {
+    font-size: clamp(0.38rem, 1.4vw, 0.75rem) !important;
+  }
+
   .regulamento-container h3 {
     font-size: 1.1rem;
     margin-top: 1.2rem;
@@ -129,6 +144,11 @@
     margin-top: 1.2rem;
   }
 
+  .section-title-compact {
+    font-size: 0.45rem !important;
+    letter-spacing: -0.4px;
+  }
+
   .regulamento-container h3 {
     font-size: 1rem;
     margin-top: 1rem;
@@ -157,6 +177,13 @@
   .winner-description {
     font-size: 0.38rem;
     line-height: 1.1;
+  }
+}
+
+@media (max-width: 394px) {
+  .section-title-compact {
+    font-size: 0.7rem !important;
+    letter-spacing: -0.3px;
   }
 }
 

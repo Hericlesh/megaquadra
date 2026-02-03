@@ -51,7 +51,9 @@ const Regulamento = () => {
         domingo.
       </p>
 
-      <h2>4. SEQUENCIA E NA FORMA DE SORTEIOS DOS PRÊMIOS DO 1º AO 6º PRÊMIO;</h2>
+      <h2 className="section-title-compact">
+        4. SEQUENCIA E NA FORMA DE SORTEIOS DOS PRÊMIOS DO 1º AO 6º PRÊMIO;
+      </h2>
 
       <h3>4.1 - 1º Premio:</h3>
       <p>
